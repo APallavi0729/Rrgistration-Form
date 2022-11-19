@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(241, 211, 173);
+            font-style: oblique;
+        }
+        .main-container{
+            padding: 2em 0 1em;
+        }
+        h1{
+            font-size: 3em;
+            text-align: center;
+            color: white;
+            font-weight: bolder;
+            /* font-style: oblique; */
+        }
+        .container{
+            
+            background-color: bisque;
+            width: 35%;
+            margin: 2em auto;
+  padding: 3em;
+  background-size: cover;
+  
+        }
+ input[type=text]{
+            font-size: 0.9em;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  
+}
+input[type="submit"] {
+  font-size: .9em;
+  color: #fff;
+  background: #f5c587;
+  border: 1px solid #fefffe;
+  padding: .8em;
+  margin: 1em auto;
+  width:100%;
+  text-align: center;
+ cursor: pointer;
+  letter-spacing: 4px;
+}
+input[type="submit"]:hover {
+  background: #fcd894;
+}
+a{
+    text-decoration: none;
+    color: #ffaf47;
+}
+a:hover{
+    background: #fcd894;
+}
+
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Register Now </h1>
+    <div class="container">
+  
+    <form action="" method="POST">
+            
+            <input type="text" placeholder="Username" name="email" id="email" required>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+            <input type="text" placeholder="Enter Password" name="psw" id="psw" required>
+            <input type="text" placeholder="Repeat Password" name="rpsw" id="rpsw" required>
+            <div class="policy">
+                <label class="pc">
+                    <input type="checkbox" class="checkbox" required>
+                    <span>I Agree To The Terms & Conditions</span>
+                </label>
+                <div class="clear"> </div>
+            </div>
+            <input type="submit" name="submit" value="Register">
+ </form>
+ <p>Already having Account? <a href="login.html"> Login Now</a></p>
+</div>
+</div>
+
+</body>
+</html>
